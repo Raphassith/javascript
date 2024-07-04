@@ -40,3 +40,13 @@ function getImgContent(img) {
         };
     }
 }
+
+function uniqueArray(arr){
+    return [...new Set(arr)];
+}
+
+function distinctArray(){
+    const years = [2016, 2017, 2017, 2016, 2019, 2018, 2019];
+    const distinctYears = [...new Set(years)];
+    console.log(distinctYears);
+}
