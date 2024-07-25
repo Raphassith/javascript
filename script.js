@@ -50,3 +50,11 @@ function distinctArray(){
     const distinctYears = [...new Set(years)];
     console.log(distinctYears);
 }
+
+function sortArray(){
+    const points = [40, 100, 1, 5, 25, 10];
+    document.getElementById("demo1").innerHTML = points;
+    
+    points.sort((a, b)=> {return b - a});
+    document.getElementById("demo2").innerHTML = points;
+}
